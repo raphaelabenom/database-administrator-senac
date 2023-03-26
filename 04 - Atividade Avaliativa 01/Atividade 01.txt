@@ -1,0 +1,22 @@
+A partir do dataset importado para o banco de dados (POSTGRES) Responda:
+
+Questão 1
+Conte os recém-nascidos agrupados pelo critério de malformação (conte quantos têm malformação e quantos não têm).
+
+Questão 2
+Calcule a idade media da mãe agrupado pelo estado civil da mãe.
+
+Questão 3
+Calcule a media de semanas de gestação de acordo com o tipo de parto.
+
+Questão 4
+Dos partos prematuros (inferiores a 36 semanas), conte quantos bebês vieram a óbito e quantos sobreviveram.
+
+Questão 5
+Calcule quantos bebês vieram a óbito por estado civil da mãe utilizando GROUP BY.
+
+Questão 6
+Mostre a idade da mãe mais jovem e da mãe mais velha, agrupado por estado civil.
+
+Questão 7
+Dos bebês que vieram a óbito, quantos tinham malformação? Isso representa qual percentual do total de bebês falecidos?

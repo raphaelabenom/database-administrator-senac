@@ -1,0 +1,35 @@
+Dados os esquemas abaixo, resolva às questões a seguir utilizando linguagem SQL.
+
+ALUNOS(
+id: varchar,
+nome: varchar,
+dataNasc: Date,
+cidade: varchar,
+fkCurso: varchar
+)
+
+
+CURSOS(
+id: varchar,
+descricao: varchar,
+segmento: Date,
+unidade: varchar
+)
+Questão 01
+Crie uma consulta que mostre a quantidade de alunos por curso. Ordene o Result Set de maneira descrescente.
+
+
+Questão 02
+Crie uma consulta que mostre o total de alunos por segmento. Ordene o Result Set de maneira descrescente.
+
+
+Questão 03
+Calcule a idade dos alunos e acrescente uma coluna com esta informação à tabela original.
+
+
+Questão 04
+Conte quantos estudantes existem em cada uma das seguintes faixas etárias:
+12 a 18 anos
+19 a 24 anos
+25 a 42 anos
+43 anos ou mais

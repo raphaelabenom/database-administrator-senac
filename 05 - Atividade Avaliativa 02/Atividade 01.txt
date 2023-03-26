@@ -1,0 +1,15 @@
+Em anexo estão dois arquivos extraídos do portal de dados abertos e publicados pela FUNAI - Fundação Nacional dos Povos Indígenas:
+- Terras Indígenas: terras.csv
+- Aldeias Indígenas: aldeias.csv
+
+O relacionamento entre terras e aldeias é 1:N, isto é, numa terra indígena há várias aldeias; e uma aldeia esta localizada em uma terra. 
+A chave primária da tabela de Terras Indígenas é a coluna terrai_cod. 
+A chave estrangeira na tabela de Aldeias Indígenas que faz referência à tabela de Terras Indígenas é a coluna cod_ti.
+
+A fim de manipular estes arquivos, crie um banco de dados chamado FUNAI no PostgreSQL e duas tabelas, uma para cada dataset. Para facilitar a importação, excluam as colunas FID e the_geom de ambos os datasets, diretamente no arquivo CSV. Estes campos são dados georreferenciados e o PostgreSQL não é a ferramenta mais adequada para trabalhar com eles.
+
+Siga o passo a passo contido no arquivo importacao_funai.sql para importar os dados dos arquivos CSV para o PostgreSQL. Após essa estapa, utilize os conhecimentos adquiridos até aqui sobre a linguagem SQL para responder às seguintes perguntas:
+1) Quantas aldeias e quantas terras indígenas existem em cada UF (Unidade da Federação)?
+2) Quantas aldeias existem para cada etnia indígena?
+3) Qual etnia indígena possui mais aldeias?
+4) Mostre as etnias cuja quantidade de aldeias seja superior à media.

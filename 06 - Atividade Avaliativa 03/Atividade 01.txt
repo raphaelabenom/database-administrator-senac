@@ -1,0 +1,46 @@
+EMPRESA DE TI
+
+Dado o esquema abaixo, responda à questões que se seguem utilizando linguagem SQL.
+
+FUNCIONARIOS (
+id: char(8),
+nome: varchar,
+sobrenome: varchar,
+cargo: varchar,
+dataNasc: Date,
+salario: double,
+temposervico: integer)
+
+Questão 1
+Liste o nome e sobrenome de todos os funcionários que são programadores. Como você faria para que o resultado dessa busca também funcionasse caso a descrição do cargo fosse "programadora"? 
+
+Questão 2
+Liste o nome, sobrenome e tempo de serviço dos funcionários que ganham entre 5 mil reais e 20 mil reais. Na sua opinião, qual seria um bom critério de ordenação para este Result Set? Justifique sua resposta.
+
+Questão 3 
+Liste nome, sobrenome e tempo de serviço do funcionário com o maior salário.
+
+Questão 4
+Crie uma view que possua um campo calculado chamado "idade" que armazene a idade do funcionário em anos em relação à data atual.
+
+Questão 5
+Liste todos os dados dos funcionários mais jovens, ordenado pelo salário.
+
+Questão 6
+Qual é a média salarial dos funcionários desta empresa?
+
+Questão 7
+Exiba o nome completo, cargo e salário de todos os funcionários que ganham acima da média.
+
+Questão 8
+Acrescente à esta tabela a coluna "nivel", onde irá constar a informação do nível de senioridade (Júnior, Pleno ou Sênior) do funcionário no cargo ocupado.
+
+Questão 9
+Calcule a média salarial por nível de senioridade e conte quantos funcionários recebem valor acima da média em cada nível de senioridade. Exiba os resultados no mesmo Result Set.
+
+Questão 10
+Suponhamos que a média salarial por nível de senioridade praticada no mercado seja a seguinte:
+Júnior - 3,5 mil reais
+Pleno - 7 mil reais
+Sênior - 12 mil reais
+Calcule quantos funcionários ganham acima da média do mercado em cada nível. Em seguida, conte quantos funcionários a empresa tem, bem como o percentual de funcionários que ganha acima da média em cada nível.

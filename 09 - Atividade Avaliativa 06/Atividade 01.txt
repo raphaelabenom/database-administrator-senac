@@ -1,0 +1,28 @@
+Atividade em Sala dia 02/03/2023
+
+EXERCÍCIO 1
+Crie o banco de dados escola e crie nele a tabela representada pelo esquema Alunos(nome, curso, nota, situacao)
+Popule esta tabela com 4 registros da sua escolha.
+EXERCÍCIO 2
+Crie uma procedure que percorra todos os registros mostre apenas os alunos com nota maior ou igual a 7.0.
+
+EXERCÍCIO 3
+Atualize a tabela alunos através de uma procedure, atribuindo para cada aluno uma situação de acordo com sua nota.
+'Aprovado' - nota >= 7.0
+'Recuperação' - nota >= 6.0 e nota < 7.0
+'Reprovado' - nota < 6.0
+EXERCÍCIO 4
+Transforme a procedure criada no exercício anterior em uma função.
+
+EXERCÍCIO 5
+Crie uma trigger que execute a função criada no exercício anterior a cada vez que um novo aluno for cadastrado.
+
+EXERCÍCIO 6
+Modifique a tabela alunos, adicionando o campo ID como PRIMARY KEY do tipo SERIAL.
+
+EXERCÍCIO 7
+Modifique o valor padrão dos seguintes campos da tabela alunos:
+situacao = 'Cursando'
+nota = 0.0
+EXERCÍCIO 8
+Modifique a trigger para que execute após uma atualização na tabela alunos.

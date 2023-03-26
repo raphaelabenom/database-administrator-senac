@@ -1,0 +1,8 @@
+1) Crie e popule as tabelas do banco de dados.
+
+2) Acrescente o campo "dataPrevista" à tabela "emprestimo".
+
+
+3) Crie uma trigger + função que verifique, antes de um empréstimo de um livro ocorrer, se há exemplares disponíveis para aquele livro. Se não houver, o usuário deverá receber uma mensagem de erro. Caso aja, o empréstimo deverá ser cadastrado e a quantidade de livros disponíveis deverá ser atualizada, diminuindo do total a retirada do exemplar emprestado.
+
+4) Crie outra trigger + função para registrar a devolução de um livro. Se a data atual for maior do que a data prevista para a devolução, calcule o dalor da multa em 1 real para cada dia de atraso. Em seguida, altere a quantidade de exemplares disponíveis do livro devolvido, aumentando no total o exemplar que foi devolvido.

@@ -1,0 +1,18 @@
+-- Sintaxe Básica Consulta (Query) ---
+-- SELECT [campos]
+-- FROM [tabela | tabelão do join]
+-- WHERE [campo] [comparador] [valor | subconsulta]
+-- GROUP BY [campo]
+-- ORDER BY [campos]
+
+-- JOIN: 
+-- 		Definição: Consulta a mais de uma tabela no mesmo ResultSet
+-- 		Sintaxe: 
+	--		FROM
+	--		[tblA] [JOIN] [tblB]
+	--		ON 
+	--		[tblA.campo] = [tblB.campo]
+-- SUBCONSULTA (SUBQUERY): 
+-- 		Definição: Filtro por um valor calculado não conhecido a priori
+-- 		Sintaxe: 
+--		WHERE [campo] [comparador] [SELECT...FROM...]

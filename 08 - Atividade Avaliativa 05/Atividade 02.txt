@@ -1,0 +1,4 @@
+Para o sistema de uma Biblioteca, projetado conforme documentação da Atividade Avaliativa 5, você deverá criar duas triggers:
+
+1) Decrementar em 1 a quantidade de exemplares sempre que um livro for emprestado, ou seja, sempre que o usuário inserir um registro na tabela Empréstimo.
+2) Incrementar em 1 a quantidade de exemplares sempre que um livro for devolvido, ou seja, sempre que o usuário atualizar um registro na tabela empréstimo (lançando a data de devolução).
